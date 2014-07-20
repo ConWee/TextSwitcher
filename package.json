@@ -1,0 +1,11 @@
+{
+    "name": "Text Switcher",
+    "description": "jQuery plugin for creating a Text Switcher With Animation.",
+    "homepage": "https://github.com/Ahmadrezanamani/jquery.Textswitcher.js",
+    "version": "0.0.5",
+    "private": true,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Ahmadrezanamani/textswitcher.js.git"
+    }
+}
