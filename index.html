@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Textswitcher : The best plugin for switch text and show it to the viewer of your website." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Textswitcher</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/Ahmadrezanamani/TextSwitcher">View on GitHub</a>
+
+          <h1 id="project_title">Textswitcher</h1>
+          <h2 id="project_tagline">The best plugin for switch text and show it to the viewer of your website.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/Ahmadrezanamani/TextSwitcher/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/Ahmadrezanamani/TextSwitcher/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="textswitcher" class="anchor" href="#textswitcher"><span class="octicon octicon-link"></span></a>TextSwitcher</h1>
+
+<p>The best plugin for switch text and show it to the viewer of your website.</p>
+
+<h2>
+<a name="textswitcherjs" class="anchor" href="#textswitcherjs"><span class="octicon octicon-link"></span></a>textswitcher.js</h2>
+
+<p>Do you want to creat a cool and basic animation text switcher easily for your website?</p>
+
+<h2>
+<a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h2>
+
+<ul>
+<li>Smart Resposive!</li>
+<li>Just a little css style!</li>
+<li>Easy Usage!</li>
+<li>Useful Plugin!</li>
+</ul><h2>
+<a name="demo" class="anchor" href="#demo"><span class="octicon octicon-link"></span></a>Demo</h2>
+
+<p><a href="http://Ahmadrezanamani.github.io/require/textswitcher.js/">See the demo page</a> or checkout <code>/demo/demo.html</code> in this repo.</p>
+
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>Add this to your <code>&lt;head&gt;</code> or add the css on the textswitcher.css in the style of your website.</p>
+
+<pre><code>&lt;link rel="stylesheet" type="text/css" href="textswitcher.css" /&gt;
+</code></pre>
+
+<p>Add this right before your closing <code>&lt;/body&gt;</code></p>
+
+<pre><code>&lt;script type="text/javascript" src="jquery.textswitcher.js"&gt;&lt;/script&gt;
+</code></pre>
+
+<p><em>Note</em>: The path may change depending on where you put the css file.</p>
+
+<p>html</p>
+
+<pre><code>&lt;div class="article"&gt;
+    &lt;h1&gt;
+        Your Text Will Be Here
+        &lt;div class="mask"&gt;
+            &lt;span&gt;TEXT1&lt;/span&gt;
+            &lt;span&gt;TEXT2&lt;/span&gt;
+            &lt;span&gt;TEXT3&lt;/span&gt;
+            &lt;span&gt;TEXT4&lt;/span&gt;
+            &lt;span&gt;TEXT5&lt;/span&gt;
+            &lt;span&gt;TEXT6&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/h1&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>js</p>
+
+<pre><code>$(".mask").textswither({
+    time:4000,
+    random:false,
+    easing:"easeInOutElastic",
+    direction:"ltr",
+    speed:2000,
+});
+</code></pre>
+
+<h2>
+<a name="options" class="anchor" href="#options"><span class="octicon octicon-link"></span></a>Options</h2>
+
+<h3>
+<a name="time" class="anchor" href="#time"><span class="octicon octicon-link"></span></a>time</h3>
+
+<p>time of the animate for each animation after each animation.</p>
+
+<p>Default: <code>1000</code></p>
+
+<h3>
+<a name="random" class="anchor" href="#random"><span class="octicon octicon-link"></span></a>random</h3>
+
+<p>random showing text switch.</p>
+
+<p>Default: <code>false</code></p>
+
+<h3>
+<a name="easing" class="anchor" href="#easing"><span class="octicon octicon-link"></span></a>easing</h3>
+
+<p>the easing for the text switcher in this plugin you can choose it after load easing js flie.</p>
+
+<p>Default: <code>linear</code></p>
+
+<h3>
+<a name="direction" class="anchor" href="#direction"><span class="octicon octicon-link"></span></a>direction</h3>
+
+<p>if your website design is left to right you can choose ltr and if is right to left you can choose rtl.</p>
+
+<p>Default: <code>ltr</code></p>
+
+<h3>
+<a name="speed" class="anchor" href="#speed"><span class="octicon octicon-link"></span></a>speed</h3>
+
+<p>Speed of the animation for switch text.</p>
+
+<p>Default: <code>400</code></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Textswitcher maintained by <a href="https://github.com/Ahmadrezanamani">Ahmadrezanamani</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
