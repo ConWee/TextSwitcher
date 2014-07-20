@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Oswald;
+    src: url(Oswald.woff);
+}
+body,html {
+	width: 100%;
+	height: 100%;
+}
+body {
+	min-height: 100%;
+	background-color: #fffaec;
+	font-family: 'Oswald', sans-serif;
+	margin: 0;
+	font-size: 14px;
+}
+.titr {
+	text-align: center;
+}
+.titr h1 {
+	display: table;
+	margin:0 auto;
+	vertical-align: top;
+	color:#30a79b;
+	font-size: 5em;
+	font-weight: 500;
+	line-height: 1.1;
+	padding-top: 150px;
+}
+.titr h1 .mask {
+	display: inline-block;
+	overflow: hidden;
+}
+.titr h1 .mask span {
+	display: block;
+	position: relative;
+}
