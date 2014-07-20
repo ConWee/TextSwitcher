@@ -15,7 +15,7 @@ Do you want to creat a cool and basic animation text switcher easily for your we
 
 ## Demo
 
-[See the demo page](http://Ahmadrezanamani.github.io/jquery.textswitcher.js/) or checkout `/demo/demo.html` in this repo.
+[See the demo page](http://Ahmadrezanamani.github.io/demo/jquery.textswitcher.js/) or checkout `/demo/demo.html` in this repo.
 
 ## Usage
 
