@@ -81,4 +81,5 @@ Default: `ltr`
 ### speed
 
 Speed of the animation for switch text.
+
 Default: `400`
