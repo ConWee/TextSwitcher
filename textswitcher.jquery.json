@@ -2,10 +2,9 @@
     "name": "Text Switcher",
     "title": "jQuery Text Switcher",
     "description": "jQuery plugin for creating a Text Switcher With Animation.",
-    "homepage": "https://github.com/Ahmadrezanamani/jquery.Textswitcher.js",
-    "demo": "http://Ahmadrezanamani.github.io/jquery.Textswitcher.js/",
-    "bugs": "https://github.com/Ahmadrezanamani/jquery.Textswitcher.js/issues",
-    "docs": "https://github.com/Ahmadrezanamani/jquery.Textswitcher.js/blob/master/README.md",
+    "homepage": "https://github.com/Ahmadrezanamani/Textswitcher",
+    "demo": "http://conwee.github.io/TextSwitcher/",
+    "docs": "https://github.com/Ahmadrezanamani/Textswitcher/blob/master/README.md",
     "keywords": [
         "layout",
         "css",
@@ -23,12 +22,6 @@
             "name": "Ahmadreza Namani",
             "email": "Ahmadrezanamani@live.co.uk",
             "url": "https://github.com/Ahmadrezanamani"
-        }
-    ],
-    "licenses": [
-        {
-            "type": "MIT",
-            "url": "https://raw.github.com/Ahmadrezanamani/Textswitcher.js/master/LICENSE"
         }
     ],
     "dependencies": {
