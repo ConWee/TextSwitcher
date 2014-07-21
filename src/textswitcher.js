@@ -45,18 +45,18 @@ $.fn.textswitcher = function initAll( options ) {
 };
 
 function check() {
-	var titrwidth = $(".titr > h1").width();
+	var articlewidth = $(".article > h1").width();
 	var windowwidth = $(window).width();
-	if (windowwidth <= titrwidth) {
+	if (windowwidth <= articlewidth) {
 		$(".mask > span").css('text-align', 'center');
 	} else {
 		$(".mask > span").css('text-align', 'left');
 	};
 }
 function checkrtl() {
-	var titrwidth = $(".titr > h1").width();
+	var articlewidth = $(".article > h1").width();
 	var windowwidth = $(window).width();
-	if (windowwidth <= titrwidth) {
+	if (windowwidth <= articlewidth) {
 		$(".mask > span").css('text-align', 'center');
 	} else {
 		$(".mask > span").css('text-align', 'right');
