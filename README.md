@@ -25,7 +25,7 @@ Add this to your `<head>` or add the css on the textswitcher.css in the style of
 
 Add this right before your closing `</body>`
 	
-	<script type="text/javascript" src="jquery.textswitcher.js"></script>
+	<script type="text/javascript" src="textswitcher.js"></script>
 
 *Note*: The path may change depending on where you put the css file.
 
