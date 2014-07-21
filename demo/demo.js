@@ -13,7 +13,7 @@
  *
  *
  *
- *  	Text Swither     
+ *  	Text Switcher     
  *  	Version: 0.0.5
  *  	By Ahmadreza Namani
  *
