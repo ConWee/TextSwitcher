@@ -13,10 +13,10 @@ body {
 	margin: 0;
 	font-size: 14px;
 }
-.titr {
+.article {
 	text-align: center;
 }
-.titr h1 {
+.article h1 {
 	display: table;
 	margin:0 auto;
 	vertical-align: top;
@@ -26,11 +26,11 @@ body {
 	line-height: 1.1;
 	padding-top: 150px;
 }
-.titr h1 .mask {
+.article h1 .mask {
 	display: inline-block;
 	overflow: hidden;
 }
-.titr h1 .mask span {
+.article h1 .mask span {
 	display: block;
 	position: relative;
 }
