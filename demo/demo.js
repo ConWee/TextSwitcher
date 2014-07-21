@@ -24,7 +24,7 @@
  *  	Available only in github for free https://github.com/Ahmadrezanamani
  *      
 */
-$.fn.textswither = function initAll( options ) {
+$.fn.textswitcher = function initAll( options ) {
         var settings = $.extend({
             time: "1000",
             random: "false",
